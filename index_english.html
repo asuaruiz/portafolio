@@ -11,7 +11,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome-animation.css">
 	<link href="css/default.css" rel="stylesheet" type="text/css"/>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
 	<link href="css/reset.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -21,7 +24,7 @@
 	</script>
 </head>
 <body class="demo-2">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top font-tipo-2">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,90 +36,140 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Page 1</a></li>
+					<li class="active"><a data-scroll href="#home">Home</a></li>
+					<li><a data-scroll href="#about">Acerca de mi</a></li>
+					<li><a data-scroll href="#skills">Habilidades</a></li>
+					<li><a data-scroll href="#angelhack">Reconocimientos</a></li>
+					<li><a data-scroll href="#projects">Proyectos</a></li>
+					<li><a data-scroll href="#contact">Contacto</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a class="btn-english" href="#">English</a>
+						<a class="btn-english" href="index_english.html">English</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<main>
-		<div class="segmenter" style="background-image: url(img/4.jpg)"></div>
-		
-				</div>
-		<h2 class="trigger-headline trigger-headline--hidden"><span>ANDREA</span><span>SUAREZ</span></h2>
-		
+		<div id="home" class="segmenter" style="background-image: url(img/4_1.jpg)">
+		</div>
+		<h2 class="trigger-headline trigger-headline--hidden">
+			<span>ANDREA</span><span>SUAREZ</span>
+		</h2>
 		<div class="bottom-nav">
-			<button id="andrea" class="btn btn--trigger">Click Me :-)</button>
+			<button id="andrea" class="btn btn--trigger">Clickeame :-)</button>
 		</div>
 	</main>	
-	<div class="container-fluid">
-		<div class="row">
 
-		</div>
-	</div>
+
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-offset-4 col-xs-12 col-offset-sm-2">
-				<div id="content">
+			<div class="col-md-12 col-xs-12 col-sm-12">
+				<div id="about" class="contenido">
+					<div class="box-about">
+						<h2 class="about-me">ACERCA DE MI</h2>
+						<p class="about-me-2">Hola, tal vez quieras saber algo sobre mí, me llamo Andrea y soy Diseñadora de Paginas Web.</p>
+						<p class="about-me-2">Me encanta el diseño y si me escoges para realizar tu proyecto, quiero que seamos un equipo :-) tu planteas tu idea y yo te la hago realidad</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div id="skills">
+				<div class="">
 					<div class="legend">
-						<h1>Skills:</h1>
+						<h1 class="font-tipo"">Habilidades</h1>
 						<div class="skills">
 							<ul>
 								<li class="jq">JavaScript</li>
 								<li class="css">CSS3</li>
 								<li class="html">HTML5</li>
 								<li class="php">PHP</li>
-								<li class="sql">JQUERY</li>
+								<li class="sql">Jquery</li>
 							</ul>
 						</div>	
 					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 col-sm-12">
 					<div id="diagram"></div>
 				</div>
-				<div class="get">
-					<div class="arc">
-						<span class="text">JavaScript</span>
-						<input type="hidden" class="percent" value="95" />
-						<input type="hidden" class="color" value="#97BE0D" />
-					</div>
-					<div class="arc">
-						<span class="text">CSS3</span>
-						<input type="hidden" class="percent" value="90" />
-						<input type="hidden" class="color" value="#D84F5F" />
-					</div>
-					<div class="arc">
-						<span class="text">HTML5</span>
-						<input type="hidden" class="percent" value="80" />
-						<input type="hidden" class="color" value="#88B8E6" />
-					</div>
-					<div class="arc">
-						<span class="text">PHP</span>
-						<input type="hidden" class="percent" value="53" />
-						<input type="hidden" class="color" value="#BEDBE9" />
-					</div>
-					<div class="arc">
-						<span class="text">JQUERY</span>
-						<input type="hidden" class="percent" value="45" />
-						<input type="hidden" class="color" value="#fbe094" />
-					</div>
+			</div>
+			<div class="get">
+				<div class="arc">
+					<span class="text">JavaScript</span>
+					<input type="hidden" class="percent" value="95" />
+					<input type="hidden" class="color" value="#FF9F07" />
+				</div>
+				<div class="arc">
+					<span class="text">CSS3</span>
+					<input type="hidden" class="percent" value="70" />
+					<input type="hidden" class="color" value="#A11F02" />
+				</div>
+				<div class="arc">
+					<span class="text">HTML5</span>
+					<input type="hidden" class="percent" value="80" />
+					<input type="hidden" class="color" value="#894B17" />
+				</div>
+				<div class="arc">
+					<span class="text">PHP</span>
+					<input type="hidden" class="percent" value="53" />
+					<input type="hidden" class="color" value="#7A3010" />
+				</div>
+				<div class="arc">
+					<span class="text">Jquery</span>
+					<input type="hidden" class="percent" value="45" />
+					<input type="hidden" class="color" value="#fbe094" />
 				</div>
 			</div>
+
 		</div>
-		<div class="angelhack">
-			
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="font-tipo">Reconocimientos</h1>
+			</div>
+			<div class="col-md-6" id="angelhack">
+				<div class=" imagen-angelhack"></div>
+				<!--<img class="imagen-angelhack" src="img/angelhack.jpg" alt="">-->
+			</div>
+			<div class="col-md-6">
+				<div class=" imagen-andrea"></div>
+				<!--<img class="imagen-andrea" src="img/1.jpg" alt="">-->
+			</div>
+			<div class="col-md-12 text-center">
+				<a class="caperuza" href="http://www.manosya.cl/caperuza/escenarios.html">
+					<div class="caperuza-bg img-responsive">
+						<img class="img-responsive" src="img/caperuza.png" alt="">
+					</div>
+				</a>
+				<!--<a class="btn-3 caperuza" href="http://www.manosya.cl/caperuza/escenarios.html">CAPERUZA</a>-->
+			</div>
 		</div>
 		
+		<div class="row" id="contact">
+			<div class="col-md-12 text-center">
+				<h1 class="font-tipo">Contactame</h1>	
+				<a href="https://www.linkedin.com/in/andrea-suarez-835aa4115?trk=hp-identity-name"><i class="fa fa-linkedin-square faa-tada animated" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Andrea3001"><i class="fa fa-facebook-square faa-tada animated" aria-hidden="true"></i></a>
+				<a href="https://github.com/asuaruiz"><i class="fa fa-github faa-tada animated" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="col-md-12 col-xs-12 text-center">
+				<i class="fa fa-envelope-o faa-shake animated" aria-hidden="true"></i><small class="email">asuaruiz@gmail.com</small>
+				<i class="fa fa-mobile faa-shake animated" aria-hidden="true"></i>
+				<small class="mobile"> +56 9 83915479</small>
+			</div>
+		</div>
+
 
 
 		<script src='js/main.js'></script>
 		<script src='js/jquery-3.1.1.min.js'></script>
 		<script src="js/raphael.js" type="text/javascript"></script>
 		<script src="js/init.js" type="text/javascript"></script>
-
+		<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/anime.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/main.js"></script>
@@ -150,16 +203,35 @@
 				});
 				$("#andrea").on("click",function(){
 					var main = $('main');
-					main.append('<a class="btn andrea1" href="">About</a>');
-					main.append('<a class="btn andrea2" href="">Projects</a>');
-					main.append('<a class="btn andrea3" href="#content">Skills</a>');
-					main.append('<a class="btn andrea4" href="">Contact</a>');
+					main.append('<a class="btn-2 andrea1" href="#about">Acerca de mi</a>');
+					main.append('<a class="btn-2 andrea2" href="">Proyectos</a>');
+					main.append('<a class="btn-2 andrea3" href="#content">Habilidades</a>');
+					main.append('<a class="btn-2 andrea4" href="">Contacto</a>');
+					main.append('<a class="btn-3 andrea5" href="#angelhack">Reconocimientos</a>');
 				})
 			})();
 
 		</script>
 		<script>
-			$('.collapse').collapse()
+			smoothScroll.init();
 		</script>
+		<script>
+			$('.nav li').click(function(e) {
+				$('.navbar li.active').removeClass('active');
+				var $this = $(this);
+				if (!$this.hasClass('active')) {
+					$this.addClass('active');
+				}
+			});
+		</script>
+		<!--<script>
+			$('.navbar-right li').click(function(e) {
+				$('.navbar-right li.active').removeClass('active');
+				var $this = $(this);
+				if (!$this.hasClass('active')) {
+					$this.addClass('active');
+				}
+			});
+		</script>-->
 	</body>
 	</html>

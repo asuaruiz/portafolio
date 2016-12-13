@@ -603,3 +603,20 @@ body{
 	font-size: 1.5em;
 	text-align: center;
 }
+.project-box {
+	height: auto;
+	width: 300px;
+	margin: 20px auto;
+	box-sizing: border-box;
+
+}
+.project-box:hover{
+	transform: scale(1.4);
+}
+.font-tipo-3{
+	font-family: 'Cabin Sketch', arial, serif;
+	color: rgba(251, 224, 148, 0.8);
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 50px;
+}
