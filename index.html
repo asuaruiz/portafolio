@@ -204,6 +204,7 @@
 		<script src='js/jquery-3.1.1.min.js'></script>
 		<script src="js/raphael.js" type="text/javascript"></script>
 		<script src="js/init.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/anime.min.js"></script>
@@ -239,10 +240,10 @@
 				});
 				$("#andrea").on("click",function(){
 					var main = $('main');
-					main.append('<a class="btn-2 andrea1" href="#about">Acerca de mi</a>');
-					main.append('<a class="btn-2 andrea2" href="#projects">Proyectos</a>');
-					main.append('<a class="btn-2 andrea3" href="#skills">Habilidades</a>');
-					main.append('<a class="btn-2 andrea4" href="">Contacto</a>');
+					main.append('<a class="btn-2 andrea1" href="#about">About me</a>');
+					main.append('<a class="btn-2 andrea2" href="#projects">Projects</a>');
+					main.append('<a class="btn-2 andrea3" href="#skills">Skills</a>');
+					main.append('<a class="btn-2 andrea4" href="">Contact</a>');
 					main.append('<a class="btn-3 andrea5" href="#angelhack">Reconocimientos</a>');
 				})
 			})();
@@ -259,6 +260,10 @@
 					$this.addClass('active');
 				}
 			});
+		</script>
+		<script>
+			$('.collapse').collapse()
+
 		</script>
 		<!--<script>
 			$('.navbar-right li').click(function(e) {

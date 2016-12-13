@@ -592,7 +592,23 @@ body{
 }
 @media (max-width:620px) {
 	.imagen-angelhack{
-		height: 260px;
+		height: 200px;
+		background-position-y: 20%;
+		background-position-x: 50%;
+	}
+	.andrea5{
+		position: absolute;
+		top: 60%;
+		left: 30%;
+	}
+	.legend{
+		margin-top: 0;
+	}
+	body > div > div:nth-child(3) > div:nth-child(4) > div > a > img{
+		margin: 40px;
+	}
+	.caperuza-bg{
+		height: auto;
 	}
 }
 .caperuza-1:hover{
