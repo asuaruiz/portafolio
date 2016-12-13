@@ -588,6 +588,7 @@ a:focus {
 }
 body{
 	max-width: 100vw;
+	text-decoration: none;
 }
 @media (max-width:620px) {
 	.imagen-angelhack{
@@ -627,4 +628,7 @@ body{
 }
 .caperuzita{
 	margin-top: -40px;
+}
+.size-git{
+	font-size: 3em;
 }
