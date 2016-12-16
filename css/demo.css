@@ -13,8 +13,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 .about-me{
-	font-family: 'Cabin Sketch', arial, serif;
-	color: rgba(251, 224, 148, 0.8);
+font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 5em;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -25,11 +24,12 @@ body {
 	color: #fff;
 	font-size: 2em;
 	line-height: 1em;
+	text-align: justify;
 }
 .box-about{
-
 	padding: 10%;
-	
+	padding-top: 20%;
+	padding-bottom: 20%
 }
 .content {
 	margin: 0 auto;
@@ -128,7 +128,7 @@ a {
 .demo-2 a {}
 .demo-2 .btn {}
 .demo-2 .btn:hover {}
-.demo-2 .trigger-headline { color: #fbe094; }
+.demo-2 .trigger-headline { color: #white; }
 .demo-2 .github-icon { }
 
 .demo-3 a { color: #b5b5b5; }
@@ -362,7 +362,7 @@ a:focus {
 .trigger-headline span {
 	display: inline-block;
 	position: relative;
-	padding: 0 5vw;
+	padding: 0 1vw;
 	-webkit-transition: opacity 2s, -webkit-transform 2s;
 	transition: opacity 2s, transform 2s;
 	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
@@ -527,8 +527,14 @@ a:focus {
 	top: 80%;
 	left: 42%;
 }
+.andrea6{
+	position: absolute;
+	top: 60%;
+	left: 42%;
+	color: white;
+}
 .caperuza{
-	position: relatives;
+	position: relative;
 	left: 42%
 	top:50%;
 }
@@ -544,21 +550,21 @@ a:focus {
 	margin-right: 30px;
 }
 .fa-envelope-o{
-	font-size: 3em;
+	font-size: 2em;
 }
 .fa-facebook-square{
 	font-size: 6em;
 	margin-right: 30px;
 }
 .fa-mobile{
-	font-size: 3em;
+	font-size: 2em;
 	margin: 20px;
 }
 .mobile{
-	font-size: 3em;
+	font-size: 2em;
 }
 .email{
-	font-size: 3em;
+	font-size: 2em;
 	margin: 20px;
 }
 .imagen-angelhack{
@@ -569,14 +575,19 @@ a:focus {
 	background-repeat: no-repeat;
 }
 .imagen-andrea{
-	height: 350px;
+	height: 337px;
 	width: 100%;
 	background-image: url(../img/3_1.jpg);
 	background-position: center top;
 }
 .font-tipo{
-	font-family: 'Cabin Sketch', arial, serif;
-	color: rgba(251, 224, 148, 0.8);
+font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
+	font-size: 40px;
+	text-align: center;
+}
+.font-tipo{
+font-family: 'Roboto', 'Avenir Next', sans-serif;	color: white;
+	font-weight: bolder;
 	font-size: 40px;
 	text-align: center;
 }
@@ -615,8 +626,7 @@ body{
 	transform: scale(1.2);
 }
 .font-tipo-2{
-	font-family: 'Cabin Sketch', arial, serif;
-	color: rgba(251, 224, 148, 0.8);
+font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -631,14 +641,13 @@ body{
 	transform: scale(1.5);
 }
 .font-tipo-3{
-	font-family: 'Cabin Sketch', arial, serif;
-	color: rgba(251, 224, 148, 0.8);
+font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 1.5em;
 	text-align: center;
 	margin-top: 50px;
 }
 #projects{
-	height: 90vh;
+	height: 80vh;
 	margin:0 auto;
 	margin-top: 10%;
 }
@@ -647,4 +656,10 @@ body{
 }
 .size-git{
 	font-size: 3em;
+}
+.pad-5{
+	padding-top: 5%;
+}
+.pad-7{
+	padding-top: 7%;
 }
