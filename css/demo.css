@@ -13,7 +13,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 .about-me{
-font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
+	font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 5em;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -581,12 +581,12 @@ a:focus {
 	background-position: center top;
 }
 .font-tipo{
-font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
+	font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 40px;
 	text-align: center;
 }
 .font-tipo{
-font-family: 'Roboto', 'Avenir Next', sans-serif;	color: white;
+	font-family: 'Roboto', 'Avenir Next', sans-serif;	color: white;
 	font-weight: bolder;
 	font-size: 40px;
 	text-align: center;
@@ -609,8 +609,9 @@ body{
 	}
 	.andrea5{
 		position: absolute;
-		top: 60%;
-		left: 30%;
+		top: 70%;
+		left: 31%;
+		font-size: 10px;
 	}
 	.legend{
 		margin-top: 0;
@@ -621,12 +622,26 @@ body{
 	.caperuza-bg{
 		height: auto;
 	}
+	.andrea6{
+		top: 52%;
+		left: 27%;
+		font-size: 20px;
+	}
+	.andrea1, .andrea2{
+		left: 10%;
+	}
+	.andrea3{
+		left: 67%;
+	}
+	.andrea4{
+		left: 65%;
+	}
 }
 .caperuza-1:hover{
 	transform: scale(1.2);
 }
 .font-tipo-2{
-font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
+	font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -641,7 +656,7 @@ font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8
 	transform: scale(1.5);
 }
 .font-tipo-3{
-font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
+	font-family: 'Roboto', 'Avenir Next', sans-serif;	color: rgba(251, 224, 148, 0.8);
 	font-size: 1.5em;
 	text-align: center;
 	margin-top: 50px;

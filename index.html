@@ -46,7 +46,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a class="btn-english" href="index_english.html">English</a>
+						<a class="btn-english hidden" href="index_english.html">English</a>
 					</li>
 				</ul>
 			</div>
@@ -232,11 +232,11 @@
 				});
 				$("#andrea").on("click",function(){
 					var main = $('main');
-					main.append('<a class="btn-2 andrea1" href="#about">About me</a>');
-					main.append('<a class="btn-2 andrea2" href="#projects">Projects</a>');
-					main.append('<a class="btn-2 andrea3" href="#skills">Skills</a>');
-					main.append('<a class="btn-2 andrea4" href="#contact">Contact</a>');
-					main.append('<a class="btn-3 andrea5" href="#angelhack">Reconocimientos</a>');
+					main.append('<a data-scroll class="btn-2 andrea1" href="#about">About me</a>');
+					main.append('<a data-scroll class="btn-2 andrea2" href="#projects">Projects</a>');
+					main.append('<a data-scroll class="btn-2 andrea3" href="#skills">Skills</a>');
+					main.append('<a data-scroll class="btn-2 andrea4" href="#contact">Contact</a>');
+					main.append('<a data-scroll class="btn-3 andrea5" href="#angelhack">Reconocimientos</a>');
 					main.append('<h1 class="font-tipo-5 andrea6">Front-End Developer</h1>');
 
 				})
